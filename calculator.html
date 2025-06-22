@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple calculator application to perform basic arithmetic operations.">
+    <meta name="keywords" content="calculator, arithmetic, addition, subtraction, multiplication, division">
+    <meta name="author" content="Achilike Justice">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <main id="calculator-container">
+        <h1>Simple Calculator</h1>
+
+        <label for="number1">Number 1:</label>
+        <input type="number" id="number1" placeholder="Enter first number">
+
+        <label for="number2">Number 2:</label>
+        <input type="number" id="number2" placeholder="Enter second number">
+
+        <div class="button-group">
+            <button id="add">+</button>
+            <button id="subtract">-</button>
+            <button id="multiply">*</button>
+            <button id="divide">/</button>
+        </div>
+
+        <div id="result">Result: <span id="calculation-result">0</span></div>
+    </main>
+
+    <script src="calculator.js"></script>
+</body>
+</html>
